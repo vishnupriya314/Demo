@@ -1,0 +1,12 @@
+name: Manual Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  manual:
+    runs-on: windows-latest
+
+    steps:
+      - name: Greetings
+        run: echo "Manual Workflow!"
